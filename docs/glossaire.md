@@ -38,7 +38,7 @@ resume_modifications: |
 | ESTA | European Seed Treatment Assurance |
 | ETL | Extract, Transform, Load |
 | GED | Gestion Électronique de Documents |
-| GNIS | Groupement National Interprofessionnel des Semences et plants |
+| Entreprise X | Organisme de contrôle officiel des semences et plants |
 | GSPP | Guide des Standards de Production et de Protection |
 | LDAP | Lightweight Directory Access Protocol |
 | MCD | Modèle Conceptuel de Données |
@@ -51,7 +51,7 @@ resume_modifications: |
 | PWA | Progressive Web App |
 | RSE | Responsabilité Sociétale des Entreprises |
 | SI | Système d'Information |
-| SOCFrance | Service Officiel de Contrôle France |
+| Organisme de contrôle | Organisme de contrôle officiel des semences et plants |
 | TIME | Tolerate – Invest – Migrate – Eliminate (méthode Gartner) |
 
 ---

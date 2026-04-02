@@ -32,7 +32,7 @@ RH : Ressources Humaines
 RSE : Responsabilité Sociétale des Entreprises
 SaaS : Software as a Service
 SI : Système d’Information
-SOCFrance : Service Officiel de Contrôle France
+Organisme de contrôle : Organisme de contrôle officiel des semences et plants
 SQL : Structured Query Language
 TIME : Tolerate – Invest – Migrate – Eliminate (méthode Gartner)
 TST : Test
