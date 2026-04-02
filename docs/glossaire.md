@@ -25,7 +25,7 @@ resume_modifications: |
 | API | Application Programming Interface |
 | BI | Business Intelligence |
 | CI/CD | Continuous Integration / Continuous Deployment |
-| COP | Contrat d'Objectifs et de Performance |
+| Plan de performance | Plan de performance |
 | COPIL | Comité de Pilotage |
 | COPROJ | Comité Projet |
 | CRM | Customer Relationship Management |
@@ -38,7 +38,7 @@ resume_modifications: |
 | ESTA | European Seed Treatment Assurance |
 | ETL | Extract, Transform, Load |
 | GED | Gestion Électronique de Documents |
-| Entreprise X | Organisme de contrôle officiel des semences et plants |
+| Entreprise X | Organisme de contrôle officiel du produit X |
 | GSPP | Guide des Standards de Production et de Protection |
 | LDAP | Lightweight Directory Access Protocol |
 | MCD | Modèle Conceptuel de Données |
@@ -51,7 +51,7 @@ resume_modifications: |
 | PWA | Progressive Web App |
 | RSE | Responsabilité Sociétale des Entreprises |
 | SI | Système d'Information |
-| Organisme de contrôle | Organisme de contrôle officiel des semences et plants |
+| Organisme de contrôle | Organisme de contrôle officiel du produit X |
 | TIME | Tolerate – Invest – Migrate – Eliminate (méthode Gartner) |
 
 ---
@@ -79,14 +79,14 @@ resume_modifications: |
 : Vérification réalisée par l'opérateur lui-même (ou par son personnel agréé) sur sa propre production, dans le cadre d'un dispositif reconnu et soumis à surveillance officielle.
 
 **Autorisation à produire**
-: Agrément permettant à un opérateur (personne morale ou physique) de multiplier, produire et commercialiser des semences et plants dans le respect des normes de qualité. L'un des 5 programmes-cadres du COP.
+: Agrément permettant à un opérateur (personne morale ou physique) de multiplier, produire et commercialiser du produit X dans le respect des normes de qualité. L'un des 5 programmes-cadres du Plan de performance.
 
 ### C
 
 **Certificat à l'exportation**
-: Document officiel requis pour l'exportation de semences vers des pays tiers ou dans le cadre de circuits soumis à surveillance officielle. Deux modalités : inspection officielle obligatoire (pays tiers) ou auto-contrôles sous surveillance officielle.
+: Document officiel requis pour l'exportation du produit X vers des pays tiers ou dans le cadre de circuits soumis à surveillance officielle. Deux modalités : inspection officielle obligatoire (pays tiers) ou auto-contrôles sous surveillance officielle.
 
-**COP (Contrat d'Objectifs et de Performance)**
+**Plan de performance**
 : Contrat signé entre Entreprise X et l'État définissant les 5 programmes-cadres des missions officielles de contrôle : Autorisation PP, Autorisation à produire, Inspection des cultures, Inspection des lots, Reconnaissance des laboratoires.
 
 **Contrôle officiel**
@@ -101,13 +101,13 @@ resume_modifications: |
 : Acte administratif signé clôturant un processus de contrôle. Peut avoir un impact sur les droits et autorisations d'un opérateur, les agréments de personnes physiques ou de laboratoires, et l'indice de confiance de l'opérateur.
 
 **Déclaration de matière**
-: Obligation déclarative d'un opérateur portant sur les matières (semences, plants) qu'il produit, transforme ou commercialise.
+: Obligation déclarative d'un opérateur portant sur les matières (produit X) qu'il produit, transforme ou commercialise.
 
 **DHS (Distinction, Homogénéité, Stabilité)**
 : Critères d'évaluation d'une variété végétale permettant son inscription au catalogue officiel. Fait l'objet d'une activité de contrôle dédiée.
 
 **DQ (Direction de la Qualité)**
-: Direction d'Entreprise X organisée en 3 pôles et 6 antennes régionales, en charge de faire appliquer les réglementations techniques concernant la production, le contrôle et la certification des semences et plants. Seule la Directrice de la DQ est habilitée à organiser le pouvoir de décision.
+: Direction d'Entreprise X organisée en 3 pôles et 6 antennes régionales, en charge de faire appliquer les réglementations techniques concernant la production, le contrôle et la certification du produit X. Seule la Directrice de la DQ est habilitée à organiser le pouvoir de décision.
 
 **Dossier**
 : Regroupement de toutes les pièces et étapes relatives à une demande ou à un contrôle pour un opérateur donné.
@@ -115,12 +115,12 @@ resume_modifications: |
 ### E
 
 **ESTA (European Seed Treatment Assurance)**
-: Référentiel professionnel européen certifiant les pratiques de traitement des semences. Souvent associé au PQP.
+: Référentiel professionnel européen certifiant les pratiques de traitement du produit X. Souvent associé au PQP.
 
 ### G
 
 **GSPP (Guide des Standards de Production et de Protection)**
-: Référentiel professionnel de bonnes pratiques encadrant la production de semences et plants.
+: Référentiel professionnel de bonnes pratiques encadrant la production du produit X.
 
 ### I
 
@@ -133,10 +133,10 @@ resume_modifications: |
 ### L
 
 **Label Rouge**
-: Signe officiel français de qualité supérieure applicable à certains produits semenciers. Fait l'objet d'une activité de contrôle dans les référentiels professionnels.
+: Signe officiel français de qualité supérieure applicable à certains produits X. Fait l'objet d'une activité de contrôle dans les référentiels professionnels.
 
-**Lot de semences**
-: Quantité définie de semences d'une même espèce/variété, produite dans des conditions homogènes et identifiable par un numéro de lot pour le contrôle.
+**Lot de produit X**
+: Quantité définie de produit X d'une même espèce/variété, produite dans des conditions homogènes et identifiable par un numéro de lot pour le contrôle.
 
 ### M
 
@@ -144,15 +144,15 @@ resume_modifications: |
 : Responsable encadrant un pôle ou une antenne régionale. Peut cumuler la fonction de référent technique régional pour les antennes.
 
 **MRV (Matériel de Reproduction Végétal)**
-: Ensemble des semences, plants et autres matériaux utilisés pour la reproduction des végétaux.
+: Ensemble des produits X et autres matériaux utilisés pour la reproduction des végétaux.
 
 ### O
 
 **Objectif de contrôle**
-: Traduction opérationnelle d'un programme-cadre COP en cible quantifiée et qualifiée d'activités de contrôle à réaliser sur une période.
+: Traduction opérationnelle d'un programme-cadre du Plan de performance en cible quantifiée et qualifiée d'activités de contrôle à réaliser sur une période.
 
 **Opérateur**
-: Personne morale ayant au moins une activité en lien avec le secteur semences et plants (multiplication, production, commercialisation). Soumis à obligations déclaratives et à contrôles officiels.
+: Personne morale ayant au moins une activité en lien avec le secteur du produit X (multiplication, production, commercialisation). Soumis à obligations déclaratives et à contrôles officiels.
 
 **Ordonnancement**
 : Étape du cycle de contrôle consistant à émettre des ordres de contrôle en réponse aux demandes et déclarations des opérateurs, avant leur planification et affectation.
@@ -169,7 +169,7 @@ resume_modifications: |
 : Plan élaboré par un opérateur pour prévenir et gérer les risques liés aux organismes nuisibles. Soumis à approbation de la DQ.
 
 **Plan de contrôle**
-: Ensemble des objectifs de contrôle annuels déclinés à partir des 5 programmes-cadres du COP. Base de la programmation.
+: Ensemble des objectifs de contrôle annuels déclinés à partir des 5 programmes-cadres du Plan de performance. Base de la programmation.
 
 **Point de contrôle**
 : Critère ou élément vérifié lors de la réalisation d'un contrôle, devant être qualifié par un collaborateur DQ.
@@ -187,7 +187,7 @@ resume_modifications: |
 : Déclinaison opérationnelle du plan de contrôle par région, définissant le volume et la nature des interventions à réaliser. Se déroule en deux temps : initiale (début d'année, fixe) et ajustée (au fil de l'eau).
 
 **PQP (Plan de Qualité Produit)**
-: Référentiel professionnel définissant les exigences qualité pour un produit semencier donné. Souvent associé à la certification ESTA.
+: Référentiel professionnel définissant les exigences qualité pour un produit X donné. Souvent associé à la certification ESTA.
 
 ### R
 
@@ -214,4 +214,4 @@ resume_modifications: |
 ### V
 
 **Végétal local**
-: Référentiel professionnel valorisant les semences et plants issus de variétés adaptées aux conditions locales.
+: Référentiel professionnel valorisant le produit X issu de variétés adaptées aux conditions locales.

@@ -29,7 +29,7 @@ resume_modifications: |
 | Certificat à l'export — inspection officielle (pays tiers) | *(session suivante)* | — |
 | Certificat à l'export — auto-contrôles sous surveillance officielle | *(session suivante)* | — |
 
-### Thématique 2 — Autorisation à produire des semences et plants
+### Thématique 2 — Autorisation à produire du produit X
 
 | Sous-thématique | Spec | Statut |
 |---|---|---|
@@ -39,7 +39,7 @@ resume_modifications: |
 | Agrément ou qualification du personnel entreprise | *(session suivante)* | — |
 | Agrément des laboratoires | *(session suivante)* | — |
 
-### Thématique 3 — Surveillance des semences et plants
+### Thématique 3 — Surveillance du produit X
 
 | Sous-thématique | Spec | Statut |
 |---|---|---|
@@ -48,8 +48,8 @@ resume_modifications: |
 | Surveillance des laboratoires | *(session suivante)* | — |
 | Surveillance des personnels entreprises | *(session suivante)* | — |
 | Contrôle des cultures | *(session suivante)* | — |
-| Contrôle des lots de semences | *(session suivante)* | — |
-| Contrôle des lots de semences — entreprises en autosurveillance | *(session suivante)* | — |
+| Contrôle des lots de produit X | *(session suivante)* | — |
+| Contrôle des lots de produit X — entreprises en autosurveillance | *(session suivante)* | — |
 | Attestation officielle sur demande | *(session suivante)* | — |
 | DHS et contrôle variétal | *(session suivante)* | — |
 

@@ -1,7 +1,7 @@
-# SI Semences — Documentation de conception
+# SI Produit X — Documentation de conception
 
 Bienvenue sur le wiki de conception du SI métier d'Entreprise X,
-dédié au contrôle officiel des semences et plants.
+dédié au contrôle officiel du produit X.
 
 ## Navigation rapide
 
@@ -29,5 +29,5 @@ Le SI couvre les **4 thématiques de contrôle officiel** :
 
 1. **Surveillance phytosanitaire** — passeports phytosanitaires, PGRP, certificats export
 2. **Autorisation à produire** — enregistrement opérateurs, agréments personnel et laboratoires
-3. **Surveillance semences et plants** — cultures, lots, laboratoires, personnels
+3. **Surveillance du produit X** — cultures, lots, laboratoires, personnels
 4. **Référentiels professionnels** — PQP/ESTA, GSPP, Label Rouge, Végétal local

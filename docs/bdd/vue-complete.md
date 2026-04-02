@@ -51,7 +51,7 @@ Détail de chaque table : colonnes, types, contraintes et règles de gestion ass
 
 ## operateur
 
-> Personne morale de la filière semences et plants.
+> Personne morale de la filière du produit X.
 
 | Colonne | Type | Contraintes | Description |
 |---|---|---|---|
@@ -71,7 +71,7 @@ Détail de chaque table : colonnes, types, contraintes et règles de gestion ass
 
 ## plan_controle
 
-> Plan de contrôle annuel issu du COP.
+> Plan de contrôle annuel issu du Plan de performance.
 
 | Colonne | Type | Contraintes | Description |
 |---|---|---|---|

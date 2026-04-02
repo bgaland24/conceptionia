@@ -1,7 +1,7 @@
 # CLAUDE.md — Instructions permanentes pour ce projet
 
 ## Contexte
-Refonte du SI métier d'Entreprise X (contrôle officiel des semences et plants, domaine GNIS).
+Refonte du SI métier d'Entreprise X (contrôle officiel du produit X).
 Stack : PostgreSQL + FastAPI. Documentation wiki via MkDocs + Material.
 
 ## Règle fondamentale : cohérence inter-documents

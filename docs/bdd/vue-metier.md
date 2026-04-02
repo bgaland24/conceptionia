@@ -39,13 +39,13 @@ graph TB
     subgraph REF["🟢 Référentiels"]
         U["👤 Utilisateur\n(inspecteur, agent admin,\nréférent, directrice)"]
         PA["🏢 Pôle / Antenne\n(3 pôles + 6 antennes\nrégionales)"]
-        OP["🏭 Opérateur\n(entreprise semencière)\nIndice de confiance"]
+        OP["🏭 Opérateur\n(Entreprise de la filière)\nIndice de confiance"]
         NR["⚠️ Niveau de risque\n(par zone / espèce)"]
     end
 
     %% ---- Couche Planification (bleue) ----
     subgraph PLAN["🔵 Planification"]
-        PC["📋 Plan de contrôle\n(annuel, issu du COP)"]
+        PC["📋 Plan de contrôle\n(annuel, issu du Plan de performance)"]
         PR["📅 Programmation\ninitiale ou ajustée\npar région"]
         OC["📌 Ordre de contrôle\n(déclencheur d'une\nintervention)"]
     end
@@ -102,7 +102,7 @@ graph TB
 : Les 9 entités organisationnelles de la DQ (3 pôles centraux + 6 antennes régionales). Chaque utilisateur y est rattaché.
 
 **Opérateur**
-: Une entreprise de la filière semences et plants. Chaque opérateur a un **indice de confiance** (historique de conformité) qui influence la fréquence et l'intensité des contrôles qui lui sont appliqués.
+: Une entreprise de la filière du produit X. Chaque opérateur a un **indice de confiance** (historique de conformité) qui influence la fréquence et l'intensité des contrôles qui lui sont appliqués.
 
 **Niveau de risque**
 : Évaluation du risque associé à une zone géographique ou un groupe d'espèce. Module la pression de contrôle indépendamment de l'opérateur.
@@ -112,7 +112,7 @@ graph TB
 ### 🔵 Planification — Que prévoit-on de faire ?
 
 **Plan de contrôle**
-: Document annuel listant tous les objectifs de contrôle, déclinés à partir des 5 programmes-cadres du COP signé avec l'État.
+: Document annuel listant tous les objectifs de contrôle, déclinés à partir des 5 programmes-cadres du Plan de performance signé avec l'État.
 
 **Programmation**
 : Déclinaison du plan de contrôle par région. En deux temps : une version **initiale** (fixe, début d'année) et des versions **ajustées** au fil des demandes des opérateurs.

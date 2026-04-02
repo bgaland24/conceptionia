@@ -19,7 +19,7 @@ resume_modifications: |
 ### Tables
 
 - Format : `snake_case` **singulier**
-- Exemples : `operateur`, `demande_autorisation`, `ordre_controle`, `lot_semence`
+- Exemples : `operateur`, `demande_autorisation`, `ordre_controle`, `lot_produit`
 
 ### Colonnes
 
@@ -83,7 +83,7 @@ CREATE TYPE agrement_statut AS ENUM (
 - Exemples :
   - `/api/v1/demandes-autorisation`
   - `/api/v1/ordres-controle`
-  - `/api/v1/operateurs/{id}/lots-semences`
+  - `/api/v1/operateurs/{id}/lots-produit`
 
 ### Paramètres
 

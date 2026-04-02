@@ -35,7 +35,7 @@ Décrire le cycle complet d'un contrôle officiel, depuis la définition du plan
 
 ```mermaid
 flowchart TD
-    A([COP — 5 programmes-cadres]) --> B[Plan de contrôle]
+    A([Plan de performance — 5 programmes-cadres]) --> B[Plan de contrôle]
     B --> C[Programmation initiale\nfixe, début d'année]
     C --> D{Demandes / déclarations\nopérateurs en cours d'année}
     D -->|Programmation ajustée| E[Ordonnancement\nÉmission des ordres de contrôle]
@@ -58,7 +58,7 @@ flowchart TD
 
 ### 1. Plan de contrôle
 
-La DQ traduit les 5 programmes-cadres du [COP](../../glossaire.md#c) en objectifs de contrôle annuels. Ces objectifs sont déclinés pour l'ensemble des 37 activités de contrôle.
+La DQ traduit les 5 programmes-cadres du [Plan de performance](../../glossaire.md#p) en objectifs de contrôle annuels. Ces objectifs sont déclinés pour l'ensemble des 37 activités de contrôle.
 
 **Règles :**
 - [RG-003](../regles-gestion/RG-003.md) — La pression de contrôle est modulée par l'analyse de risque et l'indice de confiance opérateur
@@ -104,7 +104,7 @@ La décision peut avoir trois types d'impacts :
 
 | Entité | Table SQL | Rôle |
 |---|---|---|
-| Plan de contrôle | `plan_controle` | Objectifs annuels issus du COP |
+| Plan de contrôle | `plan_controle` | Objectifs annuels issus du Plan de performance |
 | Programmation | `programmation` | Déclinaison régionale du plan |
 | Ordre de contrôle | `ordre_controle` | Déclencheur d'un contrôle |
 | Contrôle | `controle` | Réalisation effective |

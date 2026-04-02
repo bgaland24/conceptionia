@@ -1,6 +1,6 @@
-# Conception SI Semences
+# Conception SI Produit X
 
-Wiki de conception du SI métier d'Entreprise X — contrôle officiel des semences et plants.
+Wiki de conception du SI métier d'Entreprise X — contrôle officiel du produit X.
 
 Généré avec [MkDocs + Material](https://squidfunk.github.io/mkdocs-material/), servi via Flask avec authentification.
 

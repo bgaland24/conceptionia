@@ -104,7 +104,7 @@ CREATE TABLE pole_antenne (
 ### operateur
 
 ```sql
--- Personnes morales du secteur semences et plants
+-- Personnes morales du secteur du produit X
 -- RG-003 : porte l'indice de confiance
 CREATE TABLE operateur (
     id                  UUID DEFAULT gen_random_uuid() PRIMARY KEY,
@@ -129,7 +129,7 @@ CREATE INDEX idx_operateur_indice_confiance ON operateur(indice_confiance);
 ### plan_controle
 
 ```sql
--- Plan de contrôle annuel issu du COP
+-- Plan de contrôle annuel issu du Plan de performance
 CREATE TABLE plan_controle (
     id              UUID DEFAULT gen_random_uuid() PRIMARY KEY,
     annee           SMALLINT    NOT NULL CHECK (annee BETWEEN 2000 AND 2100),
