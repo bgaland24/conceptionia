@@ -1,0 +1,144 @@
+# Conception SI Semences
+
+Wiki de conception du SI métier d'Entreprise X — contrôle officiel des semences et plants.
+
+Généré avec [MkDocs + Material](https://squidfunk.github.io/mkdocs-material/), servi via Flask avec authentification.
+
+---
+
+## Lancement en local
+
+### Prérequis
+
+- Python 3.10+
+- pip
+
+### Installation (une seule fois)
+
+```bash
+git clone https://github.com/bgaland24/conceptionia.git
+cd conceptionia
+
+# Installer les dépendances
+pip install -r requirements.txt -r requirements-docs.txt
+
+# Créer le fichier de credentials à partir du modèle
+cp .env.example .env
+# Éditer .env et renseigner WIKI_USERNAME et WIKI_PASSWORD
+```
+
+### Option A — Wiki avec authentification (comportement identique à la prod)
+
+```bash
+# Windows
+set WIKI_USERNAME=admin
+set WIKI_PASSWORD=Xk9#mP2$vL5nQ8@w
+
+# macOS / Linux
+export WIKI_USERNAME=admin
+export WIKI_PASSWORD=Xk9#mP2$vL5nQ8@w
+
+# Générer le site statique
+mkdocs build
+
+# Lancer Flask
+python app.py
+```
+
+Ouvrir **http://127.0.0.1:5000** — login demandé au navigateur.
+
+### Option B — Rechargement automatique sans auth (dev contenu)
+
+```bash
+mkdocs serve
+```
+
+Ouvrir **http://127.0.0.1:8000** — le site se recharge à chaque modification d'un fichier `docs/`.
+
+---
+
+## Déploiement sur PythonAnywhere
+
+### 1. Cloner le projet
+
+Dans une console Bash PythonAnywhere :
+
+```bash
+git clone https://github.com/bgaland24/conceptionia.git
+cd conceptionia
+```
+
+### 2. Installer les dépendances
+
+```bash
+pip install --user -r requirements.txt -r requirements-docs.txt
+```
+
+### 3. Générer le site statique
+
+```bash
+mkdocs build
+```
+
+> À relancer après chaque modification du contenu (`docs/`) ou de `mkdocs.yml`.
+
+### 4. Configurer l'application web
+
+Dans l'onglet **Web** de PythonAnywhere :
+
+| Champ | Valeur |
+|---|---|
+| Source code | `/home/<username>/conceptionia` |
+| Working directory | `/home/<username>/conceptionia` |
+| WSGI configuration file | `/home/<username>/conceptionia/wsgi.py` |
+| Python version | 3.10 (ou supérieur) |
+
+### 5. Définir les variables d'environnement
+
+Dans **Web > Environment variables** :
+
+| Variable | Valeur |
+|---|---|
+| `WIKI_USERNAME` | `admin` |
+| `WIKI_PASSWORD` | *(mot de passe — ne pas committer)* |
+
+### 6. Recharger l'application
+
+Cliquer sur **Reload** dans l'onglet Web.
+
+Le wiki est accessible à l'URL fournie par PythonAnywhere, protégé par login/mot de passe.
+
+### Mettre à jour le contenu
+
+```bash
+cd conceptionia
+git pull
+mkdocs build
+# Puis Reload dans l'onglet Web
+```
+
+---
+
+## Structure du projet
+
+```
+conceptionia/
+├── app.py                  # App Flask (authentification + service fichiers statiques)
+├── wsgi.py                 # Point d'entrée WSGI pour PythonAnywhere
+├── mkdocs.yml              # Configuration du wiki MkDocs
+├── requirements.txt        # Dépendances Flask
+├── requirements-docs.txt   # Dépendances MkDocs
+├── .env.example            # Modèle de fichier de credentials
+├── .env                    # Credentials locaux (exclu du git)
+├── site/                   # Site généré par mkdocs build (exclu du git)
+└── docs/                   # Sources du wiki
+    ├── index.md
+    ├── glossaire.md
+    ├── conventions.md
+    ├── specs/
+    ├── bdd/
+    ├── api/
+    ├── tests/
+    ├── guide-utilisateur/
+    └── journal-iterations.md
+```
