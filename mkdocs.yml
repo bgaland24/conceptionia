@@ -1,0 +1,80 @@
+site_name: Conception SI Semences
+site_description: Documentation de conception du SI métier — Contrôle officiel des semences et plants
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: fr
+  palette:
+    - scheme: default
+      primary: green
+      accent: light-green
+      toggle:
+        icon: material/brightness-7
+        name: Passer en mode sombre
+    - scheme: slate
+      primary: green
+      accent: light-green
+      toggle:
+        icon: material/brightness-4
+        name: Passer en mode clair
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - toc.follow
+
+plugins:
+  - search:
+      lang: fr
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Accueil: index.md
+  - Glossaire: glossaire.md
+  - Conventions: conventions.md
+  - Spécifications:
+    - Sommaire: specs/index.md
+    - Processus:
+      - Sommaire: specs/processus/index.md
+      - PR-01 — Cycle de contrôle: specs/processus/cycle-controle.md
+    - Règles de gestion:
+      - Sommaire: specs/regles-gestion/index.md
+      - RG-001 — Programmation initiale: specs/regles-gestion/RG-001.md
+      - RG-002 — Programmation ajustée: specs/regles-gestion/RG-002.md
+      - RG-003 — Pression de contrôle: specs/regles-gestion/RG-003.md
+      - RG-004 — Signature des décisions: specs/regles-gestion/RG-004.md
+      - RG-005 — Habilitation décision: specs/regles-gestion/RG-005.md
+  - Base de données:
+    - Vue métier: bdd/vue-metier.md
+    - Vue complète: bdd/vue-complete.md
+    - Schéma SQL: bdd/schema.md
+    - Diagramme ERD: bdd/diagramme.md
+  - API:
+    - Vue d'ensemble: api/index.md
+  - Tests:
+    - Sommaire: tests/index.md
+  - Guide utilisateur:
+    - guide-utilisateur/index.md
+  - Journal des itérations: journal-iterations.md

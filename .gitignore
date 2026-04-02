@@ -1,0 +1,17 @@
+# Credentials — NE JAMAIS COMMITTER
+.env
+
+# Site généré par MkDocs
+site/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
