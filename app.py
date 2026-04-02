@@ -2,16 +2,6 @@ import os
 from functools import wraps
 from flask import Flask, request, Response, send_from_directory
 
-# Charger .env si présent (développement local)
-_env_file = os.path.join(os.path.dirname(__file__), ".env")
-if os.path.exists(_env_file):
-    with open(_env_file) as _f:
-        for _line in _f:
-            _line = _line.strip()
-            if _line and not _line.startswith("#") and "=" in _line:
-                _key, _, _value = _line.partition("=")
-                os.environ.setdefault(_key.strip(), _value.strip())
-
 app = Flask(__name__, static_folder="site")
 
 # Credentials chargés depuis les variables d'environnement (jamais dans le git)

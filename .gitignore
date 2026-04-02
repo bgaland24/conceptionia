@@ -1,5 +1,6 @@
 # Credentials — NE JAMAIS COMMITTER
 .env
+wsgi.py
 
 # Site généré par MkDocs
 site/
