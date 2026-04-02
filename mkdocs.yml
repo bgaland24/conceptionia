@@ -53,7 +53,7 @@ markdown_extensions:
 nav:
   - Accueil: index.md
   - Glossaire: glossaire.md
-  - Conventions: conventions.md
+  - Journal des itérations: journal-iterations.md
   - Spécifications:
     - Sommaire: specs/index.md
     - Processus:
@@ -71,10 +71,10 @@ nav:
     - Vue complète: bdd/vue-complete.md
     - Schéma SQL: bdd/schema.md
     - Diagramme ERD: bdd/diagramme.md
+  - Conventions: conventions.md
   - API:
     - Vue d'ensemble: api/index.md
   - Tests:
     - Sommaire: tests/index.md
   - Guide utilisateur:
     - guide-utilisateur/index.md
-  - Journal des itérations: journal-iterations.md

@@ -43,7 +43,3 @@ def serve(path):
     return send_from_directory(site_dir, path)
 
 
-if __name__ == "__main__":
-    if not AUTH_PASSWORD:
-        raise RuntimeError("WIKI_PASSWORD non défini dans l'environnement.")
-    app.run(debug=False)
